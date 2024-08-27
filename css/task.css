@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("/your-path-to-uicons/css/uicons-rounded-bold.css");
 
 :root {
 	--primary-color: #2580d0; /* Updated from --p */
 	--primary-hover-color: #005dae; /* Updated from --phover */
-	--accent-color: #5950ff; /* Updated from --accent */
-	--background-color: hsl(210, 6%, 93%); /* Updated from --main */
+	--accent-color: #1500ff; /* Updated from --accent */
+	--background-color: #ede4ff; /* Updated from --main */
 	--input-bg: #f0eff5;
 	--input-border: #d8d7db;
-	--border-color: #d870e1; /* Remain unchanged */
+	--border-color: #d2c8d2; /* Remain unchanged */
 }
 
 * {
@@ -34,8 +35,13 @@ body {
 
 .logo {
 	align-self: center;
-	width: 7em;
+	display: flex;
+	flex-direction: column;
 	margin: 10px auto 20px;
+}
+
+.logo img {
+	width: 7em;
 }
 
 .sidebar-item a {
@@ -53,8 +59,8 @@ body {
 	color: white;
 }
 
-.sidebar-item:nth-of-type(1),
-.sidebar-item:nth-of-type(6) {
+.sidebar-item:nth-of-type(2),
+.sidebar-item:nth-of-type(7) {
 	margin-top: auto;
 }
 

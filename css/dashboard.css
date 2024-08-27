@@ -34,9 +34,6 @@ body {
 	align-self: center;
 	width: 7em;
 	margin: 10px auto 20px;
-	border: 1px solid var(--main);
-	background-color: var(--p);
-	border-radius: 30px;
 }
 
 .sidebar-item a {

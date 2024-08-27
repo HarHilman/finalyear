@@ -4,12 +4,15 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="css/dashboard.css" />
+		<link rel="stylesheet" href="css/task.css" />
 	</head>
 	<body>
 		<div class="sidebar">
 			<div class="sidebar-links">
-				<img src="img/companylogo.svg" class="logo" />
+				<div class="logo">
+					<img src="img/companylogo.svg" />
+					<span>HR HARMONY</span>
+				</div>
 
 				<div class="sidebar-item">
 					<a href="#"> <img src="img/icons/dashboard.svg" />Dashboard</a>
@@ -57,29 +60,55 @@
 					<h1>Dashboard</h1>
 				</div>
 
-				<div class="card-section">
-					<div class="card">
-						<span>Person</span>
-						<h2>Name</h2>
+				<div class="task-screen">
+					<div class="task">
+						<span>Running Project</span>
+						<table class="styled-table">
+							<tr>
+								<td>Title</td>
+								<td>Start date</td>
+								<td>End date</td>
+							</tr>
+						</table>
+						<table class="task-table">
+							<tr>
+								<td>Buat FYP</td>
+								<td>jan 24</td>
+								<td>End date</td>
+							</tr>
+							<tr>
+								<td>Buat FYP</td>
+								<td>jan 24</td>
+								<td>End date</td>
+							</tr>
+							<tr>
+								<td>Buat FYP</td>
+								<td>jan 24</td>
+								<td>End date</td>
+							</tr>
+						</table>
 					</div>
 
-					<div class="card">
-						<span>Person</span>
-						<h2>Name</h2>
-					</div>
-
-					<div class="card">
-						<span>Person</span>
-						<h2>Name</h2>
-					</div>
-
-					<div class="card">
-						<span>Person</span>
-						<h2>Name</h2>
+					<div class="task2">
+						<span>To do list</span>
+						<div class="tickbox">
+							<input type="checkbox" />
+							Attend metting
+						</div>
+						<div class="tickbox">
+							<input type="checkbox" />
+							Attend metting
+						</div>
+						<div class="tickbox">
+							<input type="checkbox" />
+							Attend metting
+						</div>
+						<div class="tickbox">
+							<input type="checkbox" />
+							Attend metting
+						</div>
 					</div>
 				</div>
-
-				<div class="test">test</div>
 			</div>
 		</div>
 	</body>
